@@ -1,0 +1,17 @@
+{
+  "name": "ai-sales-manage",
+  "version": "1.0.0",
+  "description": "AI Sales Management System - Full Stack Application",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "install:playwright": "npx playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "keywords": ["ai", "sales", "management", "vue3", "express"],
+  "author": "",
+  "license": "MIT"
+}
